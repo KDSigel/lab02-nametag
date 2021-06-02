@@ -1,0 +1,39 @@
+main {
+    height: 272px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 2fr 2fr .6fr;
+    box-shadow: 4px 4px 20px 10px grey;
+    border-radius: 15px;
+}
+h1, h2 {
+    margin: 0;
+}
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.top {
+    background-color: red;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.middle {
+    font-family: inherit;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.bottom {
+    background-color: red;
+    border-radius: 0px 0px 15px 15px;
+}
