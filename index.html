@@ -8,15 +8,41 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- name, color, pronoun buttons -->
+    <section>
+        <input type="text" id="input-field"> 
+        <button id="submit-btn">Update name tag please</button>
+        <p></p>
+        <input type="color" id="color-field">
+        <button id="color-btn">Update Color</button>
+        <p></p>
+        <input type="text" id="pronoun-field">
+        <button id="pronoun-btn">Update pronouns</button>
+        <p></p>
+    </section>
+
     <main>
-        <section class='top'>
+        <section class='top' id="top-section">
             <h1>hello</h1>
             <h2>my name is</h2>
         </section>
-        <section class='middle'>
-        <span>Karl Sigel</span>
+        <section class='middle' id="middle-section">
+        <span id="new-name">Karl Sigel</span>
+        <span id="our-pronouns">Pronouns</span>
         </section>
-        <section class='bottom'></section>
+        <section class='bottom'>
+        </section>
     </main>
+    
+    <!-- change font -->
+    <section>
+        <p></p>
+        <button id="font-btn">New Font</button>
+    </section>
+    <script type="module" src="app.js"></script>
 </body>
+<footer>
+    <p></p>
+    <span id="changes">You have changed your name 0 times...</span>
+</footer>
 </html>
