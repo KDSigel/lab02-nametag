@@ -8,7 +8,7 @@ const colorBtn = document.getElementById('color-btn');
 const ourPronouns = document.getElementById('our-pronouns');
 const pronounBtn = document.getElementById('pronoun-btn');
 const pronounField = document.getElementById('pronoun-field');
-const changeFontBtn = document.getElementById('pronoun-btn');
+const changeFontBtn = document.getElementById('font-btn');
 
 submitBtn.addEventListener('click', ()=>{
     console.log(inputField.value);
